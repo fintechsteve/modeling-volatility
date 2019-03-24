@@ -3,12 +3,14 @@
 
 Overall objective: Learn how to model volatility using both traditional and more modern data science techniques. Taking into account some of the idiosyncracies of trading strategies.
 
+Introduction (Steve)
+
 0) Setting up the environment for the course (Eunice)
    a) Setting up github
    b) Setting up the environment:
       If people have Anaconda, use it.
       https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb
-1) Data ingestion: Reading in and visualizing currency data. (Steve/Eunice)
+1) Data ingestion: Reading in and visualizing currency data. (Initial complete. Steve/Eunice)
 2) Time-series properties of data and currency baskets. DXY 
 3) Splitting the sample and saving some for out of sample testing. Basic validation.
 
