@@ -1,5 +1,5 @@
 # Modeling Volatility Trading Using Econometrics and Machine Learning in Python
-# by Stephen Lawrence, Ph.D. and Eunice Hameyie-Sanon
+### by Stephen Lawrence, Ph.D. and Eunice Hameyie-Sanon
 
 With thanks to: Sonya Cates, Maria Garrahan and Chuqi Yang
 
