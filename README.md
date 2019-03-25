@@ -21,8 +21,8 @@ By blending all three techniques and paying careful attention to validation and 
 ## What this session will teach you:
 * How to calculate financial turbulence, a simplistic measure of abnormal returns and volatility.
 * How to estimate and parameterize a GARCH volatility model and how to extrapolate to get forward predictions of volatility.
-* The challenges of using nonlinear data science techniques for volatility prediction and how to meld turbulencem, GARCH and nonlinear models.
-* How to transform signals into dynamic tradign strategies and how to evaluate model performance.
+* The challenges of using nonlinear data science techniques for volatility prediction and how to meld turbulence, GARCH and nonlinear models.
+* How to transform signals into dynamic trading strategies and how to evaluate model performance.
 * How to meld techniques and still be rigorous in the application of a modeling framework.
 
 # Project Plan
