@@ -45,6 +45,8 @@ By blending all three techniques and paying careful attention to validation and 
          3. Click on "File" -> "Upload Notebook"
          4. Upload the notebook "Part_01_Loading_Currency_Data.ipynb" to colab
          5. You are ready to run your model from Colab.
+      3. Loading the dataset:
+         1. Run the notebook (from colab or locally in your terminal with command `jupyter notebook`. Make sure your current working directory is "ODSC/modeling-volatility")
          
 1. Data ingestion: Reading in and visualizing currency data. (Initial complete. Steve/Eunice)
 2. Time-series properties of data and currency baskets. DXY
