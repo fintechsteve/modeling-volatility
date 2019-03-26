@@ -26,10 +26,10 @@ By blending all three techniques and paying careful attention to validation and 
 * How to meld techniques and still be rigorous in the application of a modeling framework.
 
 ## TEST
-Markup : 1. A numbered list
-             1. A nested numbered list
-             2. Which is numbered
-         2. Which is numbered
+1. A numbered list
+  1. A nested numbered list
+  2. Which is numbered
+2. Which is numbered
 
 # Project Plan
 0. Setting up the environment for the course (Eunice)
