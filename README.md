@@ -27,16 +27,31 @@ By blending all three techniques and paying careful attention to validation and 
 
 # Project Plan
 0. Setting up the environment for the course (Eunice)
-   1. Setting up github
+   1. Setting up github:
+      1. If you do not have one, create a Github account per instructions at <https://github.com/>
+      2. On your laptop, create a folder where you will save the seminar materials. For example craete folder "ODSC"
+      3. Open your terminal window and change your current directory to the folder you create in the previous step.
+      4. Clone the seminar repository using command `git clone https://github.com/fintechsteve/modeling-volatility`
+
    2. Setting up the environment:
-&nbsp;&nbsp;&nbsp;If people have Anaconda, use it.
-&nbsp;&nbsp;&nbsp;https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb
+      1. If you have anaconda installed on your machine:
+         1. In terminal, create a new environment using command `conda create -n odsc-volatility python=3.6`.
+         2. Hit "Yes" when prompted
+         3. Activate environment using `source activate odsc-volatility`
+         4. Install all required packages by running `pip install -r requirements.txt`
+      2. If you do not have anaconda or prefer to work remotely:
+         1. In the directory where you have cloned the seminar repository (ODSC/modeling-volatility), you will see a Jupyter notebook "Part_01_Loading_Currency_Data.ipynb"
+         2. Open Google Chrome and go to <https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb>
+         3. Click on "File" -> "Upload Notebook"
+         4. Upload the notebook "Part_01_Loading_Currency_Data.ipynb" to colab
+         5. You are ready to run your model from Colab.
+         
 1. Data ingestion: Reading in and visualizing currency data. (Initial complete. Steve/Eunice)
 2. Time-series properties of data and currency baskets. DXY
 3. Splitting the sample and saving some for out of sample testing. Basic validation.
 
 4. Strategy 1:
-   1. **Part 1** - Intro to Turbulence. Why its used. Rough theory behind it. Choice of parameters. How to calculate (Static)
+   1. **Part 1** - Intro to Turbulence. Why it is used. Rough theory behind it. Choice of parameters. How to calculate (Static)
    2. **Part 2** - Creating a model and metric of success: Dynamic asset allocation. mapping between signal and weight. Alternative metrics (correlation between w and retsq, RMSE). Role of benchmark and model bias. Role of insample vs out of sample (some of the pitfalls).
 
 5. Strategy 2:
