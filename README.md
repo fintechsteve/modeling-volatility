@@ -49,15 +49,16 @@ By blending all three techniques and paying careful attention to validation and 
          1. Run the notebook (from colab or locally in your terminal with command `jupyter notebook`. Make sure your current working directory is "ODSC/modeling-volatility")
          
 1. Data ingestion: Reading in and visualizing currency data. (Initial complete. Steve/Eunice)
-2. Time-series properties of data and currency baskets. DXY
-3. Splitting the sample and saving some for out of sample testing. Basic validation.
+2. Time-series properties of data and currency baskets. DXY (Needs more explanation of statistics and plots. Eunice)
+3. Splitting the sample and saving some for out of sample testing. Basic validation. (Steve by 30th)
+   Metrics for success. define concept of a basic model and RMSE test (Steve by 30th)
 
 4. Strategy 1:
-   1. **Part 1** - Intro to Turbulence. Why it is used. Rough theory behind it. Choice of parameters. How to calculate (Static)
-   2. **Part 2** - Creating a model and metric of success: Dynamic asset allocation. mapping between signal and weight. Alternative metrics (correlation between w and retsq, RMSE). Role of benchmark and model bias. Role of insample vs out of sample (some of the pitfalls).
+   1. **Part 1** - Intro to Turbulence. Why it is used. Rough theory behind it. Choice of parameters. How to calculate (Static) (Steve by 30th)
+   2. **Part 2** - Creating a model and metric of success: Dynamic asset allocation. mapping between signal and weight. Alternative metrics (correlation between w and retsq, RMSE). Role of benchmark and model bias. Role of insample vs out of sample (some of the pitfalls). (Eunice by 5th)
 
 5. Strategy 2:
-   1. **Part 1** - Introduction to GARCH Estimation: Why it is used. Theory behind it and estimation. p and q parameters, look back window. How to calculate (Static) - Sonya
+   1. **Part 1** - Introduction to GARCH Estimation: Why it is used. Theory behind it and estimation. p and q parameters, look back window. How to calculate (Static) - (Sonya by 5th)
    2. **Part 2** - GARCH revisited: Forward estimation and challenges of multi-day estimation. - Sonya
 
 8. Strategy 3:
