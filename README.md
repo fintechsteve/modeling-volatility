@@ -25,8 +25,8 @@ By blending all three techniques and paying careful attention to validation and 
 * How to transform signals into dynamic trading strategies and how to evaluate model performance.
 * How to meld techniques and still be rigorous in the application of a modeling framework.
 
-# Project Plan
-0. Setting up the environment for the course (Eunice)
+# Lesson Plan
+0. Setting up the environment for the course
    1. Setting up github:
       1. If you do not have one, create a Github account per instructions at <https://github.com/>
       2. On your laptop, create a folder where you will save the seminar materials. For example craete folder "ODSC"
