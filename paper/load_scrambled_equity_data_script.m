@@ -5,7 +5,11 @@
 % returns.dates = datenum(returndates);
 % save equity_returns.mat returns
  
-load equity_returns.mat
+load 'C:\Users\websi\OneDrive\THIRD CULTURE PAPER\equity_returns.mat'
+
+returns.data = returns.data(1:12241,:)
+returns.dates = returns.dates(1:12241,:)
+
 [T, N] = size(returns.data);
 returns.data = returns.data(randperm(T),:);
 wts_vector = [.0604, .0308, .0996, .1267, .0799, .1348, 0.1766, .2413, .0209, .0290]; % Fixed sector weights

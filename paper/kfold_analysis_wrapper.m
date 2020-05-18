@@ -13,16 +13,19 @@ master_params.look_ahead = 1;
 %% Load data (See note above about commenting out in run_all_model script
 
 % Pick one...
-load_currency_data_script;
+% load_currency_data_script;
 % load_equity_data_script;
 % load_detrended_equity_data_script;
 % load_detrended_currency_data_script;
 % load_scrambled_equity_data_script;
-% load_scrambled_currency_data_script;
+load_scrambled_currency_data_script;
 
 %% Create master variable structures
 [T,N] = size(returns.data);
 Tcircshift = floor(T/master_params.master_kfolds);
+
+T_oos_start = find(returns.dates>datenum('31-Dec-2004'),1,'first');
+% T_oos_start = find(returns.dates>datenum('01-Jan-2020'),1,'first');
 
 %% Run master k-folds
 

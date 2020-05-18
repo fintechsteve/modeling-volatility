@@ -11,7 +11,6 @@ master_params.verbose = true;
 master_params.trade_prctile = 75;
 
 [T,N] = size(returns.data);
-T_oos_start = find(returns.dates>datenum('31-Dec-2004'),1,'first');
 master_params.out_of_sample = [false(T_oos_start-1,1); true(T-T_oos_start+1,1)];
 master_params.true_out_of_sample = [false(T_oos_start+master_params.look_ahead-1,1); true(T-T_oos_start-master_params.look_ahead+1,1)];
 
@@ -63,7 +62,7 @@ for iMethodology = [1:3] % [1 2 3]
                 
             case 3 % Data science / k-folds
 
-                calculate_kfold_insample_performance_script_v2;
+                calculate_kfold_insample_performance_script_v2; 
                 
         end
     end

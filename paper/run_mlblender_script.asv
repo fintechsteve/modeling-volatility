@@ -64,11 +64,7 @@ for iFold = 1:size(model_signal_ranks,3)
         
 %         Babsrmse{iAlpha,iFold} = lasso(sqrt(rolling_retsq(optimization_insample_ml1,iFold)).*model_signal_ranks(optimization_insample_ml1,:,iFold), sqrt(rolling_retsq(optimization_insample_ml1,iFold)).*rolling_retsqrank(optimization_insample_ml1,iFold),'Alpha',xalpha,'NumLambda',20);
         Babsrmse{iAlpha,iFold} = lasso(sqrt(rolling_retsq(optimization_insample_ml1,iFold)).*model_signal_ranks(optimization_insample_ml1,:,iFold), sqrt(rolling_retsq(optimization_insample_ml1,iFold)).*rolling_retsqrank(optimization_insample_ml1,iFold),'Alpha',xalpha,'NumLambda',20);
-        for iLambda = 1:size(Babsrmse{iAlpha,iFold},2)
-            if sum(abs(Babsrmse{iAlpha,iFold}(:,iLambda)))==0
-                Babsrmse{iAlpha,iFold}(:,iLambda) = ones(size(Babsrmse{iAlpha,iFold}(:,iLambda)))/numel(Babsrmse{iAlpha,iFold}(:,iLambda));
-            end
-        end
+        
     end
 end
 

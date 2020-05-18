@@ -9,5 +9,5 @@ load 'C:\Users\websi\OneDrive\THIRD CULTURE PAPER\equity_returns.mat'
 wts_vector = [.0604, .0308, .0996, .1267, .0799, .1348, 0.1766, .2413, .0209, .0290]; % Fixed sector weights
 master_params.data_description = 'US Equity Sector Returns';
 
-returns.data = returns.data(1:12241,:)
-returns.dates = returns.dates(1:12241,:)
+% returns.data = returns.data(1:12241,:)
+% returns.dates = returns.dates(1:12241,:)
