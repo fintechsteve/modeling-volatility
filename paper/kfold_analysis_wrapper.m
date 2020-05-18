@@ -14,11 +14,11 @@ master_params.look_ahead = 1;
 
 % Pick one...
 % load_currency_data_script;
-load_equity_data_script;
+% load_equity_data_script;
 % load_detrended_equity_data_script;
 % load_detrended_currency_data_script;
 % load_scrambled_equity_data_script;
-% load_scrambled_currency_data_script;
+load_scrambled_currency_data_script;
 
 %% Create master variable structures
 [T,N] = size(returns.data);
